@@ -1,0 +1,40 @@
+@import url(header.css);
+@import url(footer.css);
+@import url(body_content.css);
+@import url(navigation.css);
+
+:root{
+    --cor-principal: #e9f0d9;
+    --cor-secundaria: #d3a74b;
+    --cor-terciaria: #0e98c6;
+    --cor-quaternaria: #0A4E7D;
+    --cor-alternativa1: #6165A6;
+    --cor-alternativa2: #68537E;
+
+    --dark-shade:#322F2F;
+    --black: #000000;
+    --white: #FFFFFF;
+    --light-shade: #C6C6C6;
+
+    --gradient-lunar: linear-gradient(163deg, #117DB0 0%, #242E37 96.87%)
+
+    --navbar-primary: #737E8F;
+    --navbar-shade: ;
+    --navbar-border: ;
+
+    --fonte-principal: "Tiny5", sans-serif;
+    --fonte-secundaria: "Jura";
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.color__test{
+    background: var(--light-shade);
+    border: 4px solid var(--cor-quaternaria);
+    border-radius: 20px;
+}
+
+/* Criar media queria depois */ 

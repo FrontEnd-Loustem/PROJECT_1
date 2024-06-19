@@ -1,0 +1,50 @@
+.navbar__container{
+    position: relative;
+    top: 10px;
+    width: 75%;
+    height: 40px;
+    border-radius: 20px;
+    margin: 0px auto;
+}
+
+.navbar__table{
+    width: 100%;
+    line-height: 40px;
+    border-radius: 20px;
+    opacity: 75%;
+}
+
+.navbar__button{
+    width: 33%;
+    font-family: var(--fonte-principal);
+    letter-spacing: 0.2em;
+    font-size: 22px;
+}
+
+.navbar__button a{
+    background: url(../assets/imgs/obj_button_back1.png);
+    background-size: 100%;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    transition: 500ms;
+    text-shadow: -3px 2px 2px var(--white);
+    color: var(--black);
+}
+
+.navbar__left{
+    border-radius: 20px 0 0 20px;
+}
+
+.navbar__right{
+    border-radius: 0 20px 20px 0;
+}
+
+.navbar__button a:hover{
+    background-image: url(../assets/imgs/obj_button_back2.png);
+    background-size: 100%;
+    line-height: 40px;
+    opacity: 95%;
+    text-shadow: -2px 2px 2px var(--black);
+    color: var(--white);
+}
