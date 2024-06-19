@@ -2,3 +2,14 @@
     height: 120px;
     background-color: var(--dark-shade);
 }
+
+.rodape__text{
+    text-align: center;
+    margin: 0px auto;
+    display: block;
+    padding: 40px;
+    line-height: 40px;
+    width: 75%;
+    color: var(--white);
+    font-size: 22px;
+}
